@@ -1,0 +1,36 @@
+pygame 2.3.0 (SDL 2.24.2, Python 3.7.12)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 30       |
+|    ep_rew_mean     | -86.6    |
+| time/              |          |
+|    fps             | 3        |
+|    iterations      | 1        |
+|    time_elapsed    | 135      |
+|    total_timesteps | 512      |
+---------------------------------
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 30         |
+|    ep_rew_mean          | -83.8      |
+| time/                   |            |
+|    fps                  | 3          |
+|    iterations           | 2          |
+|    time_elapsed         | 270        |
+|    total_timesteps      | 1024       |
+| train/                  |            |
+|    approx_kl            | 0.00451378 |
+|    clip_fraction        | 0.00176    |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.38      |
+|    explained_variance   | 0.00422    |
+|    learning_rate        | 0.0003     |
+|    loss                 | 316        |
+|    n_updates            | 10         |
+|    policy_gradient_loss | -0.00618   |
+|    value_loss           | 763        |
+----------------------------------------
